@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+import HolaMundo from './Components/HolaMundo.jsx'
+import Button from './Components/Button.jsx'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HolaMundo />
+    <Button text="click!" />
+    <Button text="click 2!" />
   </React.StrictMode>,
   document.getElementById('root')
 );
